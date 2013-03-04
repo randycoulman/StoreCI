@@ -1,4 +1,4 @@
-= StoreCI
+# StoreCI
 
 Integrate Cincom Visualworks Smalltalk with Continuous Integration
 servers.
@@ -22,7 +22,7 @@ so will not work in 7.6 or earlier.  If you find any incompatibilities
 with VW 7.7 or later, please file an issue.  I have not yet tested
 this with the VW 7.10 development builds.
 
-= Usage
+# Usage
 
 The Jenkins visualworks-store-plugin expects to run StoreCI by
 invoking a shell script (or batch file on Windows).  This script
@@ -41,7 +41,7 @@ or:
 
     /path/to/VM /path/to/image -pcl /path/to/StoreCI.pcl "$@"
 
-= Configuring the Jenkins Plugin
+# Configuring the Jenkins Plugin
 
 visualworks-store-plugin contains a global configuration section
 (under the Manage Jenkins link) where you can define one or more
@@ -87,7 +87,7 @@ useful if you need to monitor more than one repository for the same
 build, or if you need to monitor both a Store repository and a git or
 Subversion repository.
 
-= Command-line Usage
+# Command-line Usage
 
 If you'd like to use StoreCI with a different CI system, you'd need to
 configure that system to invoke StoreCI with the correct command-line
@@ -162,14 +162,14 @@ pundle versions in a .store subdirectory of the working directory.
 This allows it to determine which packages are new, deleted, or just
 modified.
 
-= Understanding the Code
+# Understanding the Code
 
 StoreCI is the main entry point for the command-line application.  It
 processes command-line arguments, configures an instance of StoreSCM,
 and then invokes the desired operation on it.  See the class and
 method comments for more information.
 
-= Contributing
+# Contributing
 
 I'm happy to receive bug fixes and improvements to this package.  If
 you'd like to contribute, please publish your changes as a "branch"
@@ -177,7 +177,7 @@ you'd like to contribute, please publish your changes as a "branch"
 let me know.  I will merge your changes back into the "trunk" as soon
 as I can review them.
 
-= Related Work
+# Related Work
 
 ParcelBuilder can be used to load the list of pundle versions created
 by StoreCI and save them as parcels on disk.  This is ideal for a
