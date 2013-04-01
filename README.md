@@ -26,8 +26,8 @@ component.
 
 * StoreCI-Polling is a bridge between a Continuous Integration (CI)
   server and Visualworks Store.  It has been tested against Jenkins
-  1.466 and later using the visualworks-store-plugin
-  (https://wiki.jenkins-ci.org/display/JENKINS/Visualworks+Smalltalk+Store+Plugin).
+  1.466 and later using the
+  [visualworks-store-plugin](https://wiki.jenkins-ci.org/display/JENKINS/Visualworks+Smalltalk+Store+Plugin).
 
 * StoreCI-Building loads a set of pundles from a Store repository into
   an image, and optionally deploys them as parcels.  It is intended to
@@ -354,8 +354,8 @@ the "trunk" as soon as I can review them.
 If you have any questions about StoreCI and how to use it, feel
 free to contact me.
 
-Web site: http://randycoulman.com
-Blog: Courageous Software (http://randycoulman.com/blog)
-E-mail: randy _at_ randycoulman _dot_ com
-Twitter: @randycoulman
-GitHub: randycoulman
+* Web site: http://randycoulman.com
+* Blog: Courageous Software (http://randycoulman.com/blog)
+* E-mail: randy _at_ randycoulman _dot_ com
+* Twitter: @randycoulman
+* GitHub: randycoulman
