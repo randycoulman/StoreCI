@@ -1,5 +1,7 @@
 # StoreCI
 
+![Maintenance Status](https://img.shields.io/badge/maintenance-active-green.svg)
+
 Integrate Cincom Visualworks Smalltalk with a Continuous Integration server.
 
 StoreCI is licensed under the MIT license.  See the Copyright tab in
